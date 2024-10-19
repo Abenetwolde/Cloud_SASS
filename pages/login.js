@@ -2,7 +2,7 @@ import { signIn, useSession } from 'next-auth/react'
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react'
-
+ 
 function Login() {
     const {data:session}=useSession();
     const router=useRouter();
