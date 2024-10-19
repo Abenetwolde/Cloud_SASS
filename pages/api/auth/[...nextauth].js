@@ -7,8 +7,10 @@ export const authOptions = {
     GoogleProvider({
         clientId: "1090533316877-i9o94k7eqp3k536s5mc5ue3b0g7pgrv1.apps.googleusercontent.com",
         clientSecret: "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"
-      })
+      }),
+   
   ],
+     secret: "process.env.NEXTAUTH_SECRET"
 }
 
 export default NextAuth(authOptions)
