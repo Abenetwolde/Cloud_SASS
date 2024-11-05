@@ -17,7 +17,7 @@ function Login() {
   return (
     <div className='flex justify-center 
     items-center mt-[25%] ml-[0%] md:ml-[50%] flex-col gap-6'>
-      <Image src='/logo.png'
+      <Image src='/ablogo.png'
       alt='logo'
       width={200}
       height={100}
